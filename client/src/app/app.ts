@@ -33,12 +33,12 @@ export class App implements OnInit {
   // }
 
   async ngOnInit(){
-  this.members.set(await this.getMembers())
+  this.members.set(await this.GetMembers())
   }
 
 
 
- async  getMembers(){
+ async  GetMembers(){
   //instead of returning an observable it return a promise
 
   try{
